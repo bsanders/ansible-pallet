@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+
+<kickstart>
+
+
+	<description>
+	Install ansible and dependencies
+	</description>
+
+	<si_copyright>
+	(c) 2006 - 2017 StackIQ Inc.
+	All rights reserved. stacki(r) v4.0 stacki.com
+	</si_copyright>
+
+<!--
+     List packages that will only be
+     installed on frontends
+	<package>package-frontend-1</package>
+	<package>package-frontend-2</package>
+-->
+
+<package>ansible</package>
+
+<!-- Post section that will be run
+     only on frontends
+<post>
+</post>
+ -->
+
+</kickstart>

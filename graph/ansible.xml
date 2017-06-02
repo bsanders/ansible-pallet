@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+
+<graph>
+
+	<description>
+
+	A pallet for Ansible 2.3 with dependencies
+
+	</description>
+
+	<si_copyright>
+	(c) 2006 - 2017 StackIQ Inc.
+	All rights reserved. stacki(r) v4.0 stacki.com
+	</si_copyright>
+
+
+	<edge from="server" to="ansible-server" />
+
+	<!-- Add ordering of edges here. This defines
+	     the order in which the node XML files
+	     are run -->
+	<!--
+	     For example, to run the post section in ansible-base
+	     after the resolv.xml from the stacki pallet, use the
+	     following directive
+	     <order head="resolv" tail="ansible-base" />
+	-->
+</graph>

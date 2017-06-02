@@ -1,0 +1,9 @@
+ansible
+libtomcrypt
+libtommath
+python2-crypto
+python2-ecdsa
+python2-paramiko
+python-httplib2
+python-keyczar
+sshpass
